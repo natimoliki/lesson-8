@@ -1,0 +1,401 @@
+.bg-image {
+  background-image: url("../image/4262432.jpg");
+  height: 1200px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 40px;
+  color: rgb(27, 0, 234);
+  justify-content: center;
+  display: inline-block;
+}
+
+.lyrics-box {
+  width: 250px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.p-box {
+  color: blue;
+  font-size: 25px;
+  margin-top: 300px;
+}
+
+.div-1 {
+  position: absolute;
+  animation-name: animation1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.image-1 {
+  width: 150px;
+}
+
+.div-2 {
+  position: absolute;
+  top: 200px;
+  right: 1500px;
+  animation-name: animation2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-2 {
+  width: 150px;
+}
+
+.div-3 {
+  position: absolute;
+  top: 200px;
+  right: 1500px;
+  animation-name: animation3;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-3 {
+  width: 150px;
+}
+
+.div-4 {
+  position: absolute;
+  top: 200px;
+  right: 1500px;
+  animation-name: animation4;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-4 {
+  width: 180px;
+}
+
+.div-5 {
+  position: absolute;
+  top: 200px;
+  right: 1500px;
+  animation-name: animation5;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-5b {
+  width: 180px;
+}
+
+.div-7 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  animation-name: animation5;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-7b {
+  width: 180px;
+}
+
+.div-8 {
+  position: absolute;
+  animation-name: animation8;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-8b {
+  width: 180px;
+}
+
+.div-9 {
+  position: absolute;
+  animation-name: animation9;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-9 {
+  width: 180px;
+}
+
+.div-6 {
+  position: absolute;
+  animation-name: animation6;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-6b {
+  width: 180px;
+}
+
+.div-10 {
+  position: absolute;
+  animation-name: animation10;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.image-10 {
+  width: 180px;
+}
+
+.div-11 {
+  position: absolute;
+  animation-name: animation11;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.image-11 {
+  width: 180px;
+}
+
+.div-12 {
+  position: absolute;
+  animation-name: animation12;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.image-12 {
+  width: 180px;
+}
+
+@keyframes animation1 {
+  0% {
+    right: -40%;
+    top: 50%;
+  }
+  100% {
+    right: 110%;
+    top: 70%;
+  }
+}
+
+@keyframes animation2 {
+  from {
+    left: 0px;
+  }
+  to {
+    top: 300px;
+    left: 600px;
+    top: 400px;
+    left: 800px;
+  }
+}
+
+@keyframes animation3 {
+  0% {
+    top: 10px;
+    left: 0px;
+  }
+  20% {
+    top: 300px;
+    left: 600px;
+  }
+  40% {
+    top: 40px;
+    left: 700px;
+  }
+  60% {
+    top: 60px;
+    left: 800px;
+  }
+  80% {
+    top: 80px;
+    left: 900px;
+  }
+  100% {
+    top: 100px;
+    left: 1000px;
+  }
+}
+
+@keyframes animation4 {
+  0% {
+    top: 200px;
+    right: 200px;
+  }
+  20% {
+    top: 300px;
+    right: 600px;
+  }
+  40% {
+    top: 40px;
+    right: 700px;
+  }
+  60% {
+    top: 60px;
+    right: 800px;
+  }
+  80% {
+    top: 80px;
+    right: 900px;
+  }
+  100% {
+    top: 100px;
+    right: 1000px;
+  }
+}
+
+@keyframes animation5 {
+  0% {
+    top: 100px;
+    right: 80px;
+  }
+  20% {
+    top: 300px;
+    right: 800px;
+  }
+  40% {
+    top: 40px;
+    right: 900px;
+  }
+  60% {
+    top: 60px;
+    right: 1000px;
+  }
+  80% {
+    top: 80px;
+    right: 1300px;
+  }
+  100% {
+    top: 100px;
+    right: 1500px;
+  }
+}
+
+@keyframes animation8 {
+  0% {
+    top: 100px;
+    left: 10px;
+  }
+  20% {
+    top: 500px;
+    left: 500px;
+  }
+  40% {
+    top: 800px;
+    left: 900px;
+  }
+  60% {
+    top: 100px;
+    left: 1300px;
+  }
+  80% {
+    top: 80px;
+    left: 1500px;
+  }
+  100% {
+    top: 100px;
+    left: 1900px;
+  }
+}
+
+@keyframes animation9 {
+  0% {
+    right: -90%;
+    top: 50%;
+  }
+  100% {
+    right: 110%;
+    top: 70%;
+  }
+}
+
+@keyframes animation10 {
+  0% {
+    right: -40%;
+    top: 50%;
+  }
+  100% {
+    right: 110%;
+    top: 70%;
+  }
+}
+
+@keyframes animation6 {
+  0% {
+    top: 100px;
+    right: 80px;
+  }
+  20% {
+    top: 300px;
+    right: 800px;
+  }
+  40% {
+    top: 40px;
+    right: 900px;
+  }
+  60% {
+    top: 60px;
+    right: 1000px;
+  }
+  80% {
+    top: 80px;
+    right: 1300px;
+  }
+  100% {
+    top: 100px;
+    right: 1500px;
+  }
+}
+
+@keyframes animation11 {
+  0% {
+    right: -40%;
+    top: 50%;
+  }
+  100% {
+    right: 110%;
+    top: 70%;
+  }
+}
+
+
+@keyframes animation12  
+{
+    0% {
+      top: 100px;
+      right: 80px;
+    }
+    20% {
+      top: 300px;
+      right: 800px;
+    }
+    40% {
+      top: 40px;
+      right: 900px;
+    }
+    60% {
+      top: 60px;
+      right: 1000px;
+    }
+    80% {
+      top: 80px;
+      right: 1300px;
+    }
+    100% {
+      top: 100px;
+      right: 1500px;
+    }
+  }
+
+/* hover */
+.lyrics-box :hover {background-color: rgb(255, 255, 255);
+color: red;}
+
+/* fonts */
+fonts {font-family: 'Roboto', sans-serif;}
